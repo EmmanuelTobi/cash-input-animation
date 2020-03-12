@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CashAmount</string>
+
+    <string name="naira_code">\u20A6</string>
+</resources>

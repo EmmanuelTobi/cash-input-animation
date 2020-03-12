@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AlphaTracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AppFunctions/app/src/main/java/com/example/cosmic/androidappclasses" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Milade" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mofe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SmartAudioRec" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Smartrec" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tukio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tukio-Admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/YouLiftApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aado-lifestyle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-dev-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/campusvibes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/foodie-mobile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heypay_android_api28" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/periodical" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/terasys-hub-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/venten_assessment" vcs="Git" />
+  </component>
+</project>
