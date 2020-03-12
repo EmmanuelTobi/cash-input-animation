@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     var animZoomOut:Animation? = null
     var animSlideDown: Animation? = null
     var animTogether:Animation? = null
+    var animShake:Animation? = null
 
     var cashAmount: String = "0"
     var inputMade: Boolean = false
@@ -37,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         animZoomOut = AnimationUtils.loadAnimation(applicationContext, R.anim.zoom_out)
         animTogether = AnimationUtils.loadAnimation(applicationContext, R.anim.together)
         animSlideDown = AnimationUtils.loadAnimation(applicationContext, R.anim.slide_down)
+        animShake = AnimationUtils.loadAnimation(applicationContext, R.anim.shake)
 
         cash_amount_view.text = CashAmountFormat(cashAmount.toInt())
 
@@ -146,6 +148,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
             })
+
+        } else if (cashAmount.length >= 7) {
+            cash_amount_view.startAnimation(animShake)
 
         } else {
 
