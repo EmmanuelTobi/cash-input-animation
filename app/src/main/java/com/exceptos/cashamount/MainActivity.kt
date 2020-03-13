@@ -42,6 +42,15 @@ class MainActivity : AppCompatActivity() {
 
         cash_amount_view.text = CashAmountFormat(cashAmount.toInt())
 
+//        dot_text.setOnClickListener {
+//
+//            zero_text.startAnimation(animZoomIn)
+//            handleZoomInOutAnimation(animZoomIn!!, dot_text, null)
+//
+//            animateDigit(".")
+//
+//        }
+
         zero_text.setOnClickListener {
 
             zero_text.startAnimation(animZoomIn)
@@ -149,7 +158,7 @@ class MainActivity : AppCompatActivity() {
 
             })
 
-        } else if (cashAmount.length >= 7) {
+        } else if (cashAmount.length == 8) {
             cash_amount_view.startAnimation(animShake)
 
         } else {
