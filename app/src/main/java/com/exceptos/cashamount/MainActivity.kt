@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 import java.text.NumberFormat
 import java.util.*
 
-
 class MainActivity : AppCompatActivity() {
 
     var animFadeIn: Animation? = null

@@ -7,7 +7,7 @@
     android:alpha="100"
     android:background="@color/colorGreen"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".NewActivity">
 
     <TextView
         android:id="@+id/textView"
